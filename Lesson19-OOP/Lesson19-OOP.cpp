@@ -1,5 +1,6 @@
 #include <iostream>
 #include "Student.h"
+#include "Card.h"
 using namespace std;
 
 int main()
@@ -12,6 +13,8 @@ int main()
     //Andriy.showInfo();
     //return 0;
 
+    Card Dudolad("Dudolad Yaroslav");
 
+    Dudolad.showInfo();
 }
 
